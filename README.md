@@ -8,5 +8,4 @@ This project focuses on building a system to detect **fake news articles** using
 - Feature extraction (TF-IDF, word embeddings, etc.).  
 - Machine learning and deep learning models for classification.  
 - Model evaluation and performance comparison.  
- 
-# GTC-Fake-News-Detection
+
