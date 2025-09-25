@@ -1,0 +1,7 @@
+huggingface-hub
+nltk
+numpy
+pandas
+scikit-learn
+tensorflow
+transformers
