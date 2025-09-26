@@ -103,7 +103,8 @@ Input field for users to paste a news headline or article.
 Real-time predictions from trained models (BERT and LSTM).
 
 Visualization of prediction confidence scores.
-You can try it using this [link](https://finetuning--roberta-base-for-fake-news-classifier-otpwywcmgxyu.streamlit.app/)
+
+You can see the application using this [link](https://finetuning--roberta-base-for-fake-news-classifier-otpwywcmgxyu.streamlit.app/).
 
 
 
