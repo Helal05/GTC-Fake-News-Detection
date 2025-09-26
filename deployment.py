@@ -103,7 +103,7 @@ st.markdown("""
     }
     .stButton>button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(100, 120, 235, 0.5);
+    box-shadow: 0 4px 15px;
     background: #CEAB93;  
     color: white;         
     border: none;         
@@ -183,4 +183,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
