@@ -103,6 +103,7 @@ Input field for users to paste a news headline or article.
 Real-time predictions from trained models (BERT and LSTM).
 
 Visualization of prediction confidence scores.
+You can try it using this [link](https://finetuning--roberta-base-for-fake-news-classifier-otpwywcmgxyu.streamlit.app/)
 
 
 
@@ -190,7 +191,7 @@ Mohammed Elhelaly → EDA & Preprocessing
 Mohamed Mahmoud → EDA &
 Preprocessing 
 
-Ahmed Yusri → BERT Fine-tuning Model Development & Training 
+Ahmed Yusri → BERT Fine-tuning Model Development & Training & Deployment
 
 MohamedBakr21 → LSTM Model Development & Training
 
