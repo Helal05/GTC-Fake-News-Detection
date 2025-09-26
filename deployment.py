@@ -32,14 +32,14 @@ def predict_news(text):
         # Convert text → sequence
         seq = tokenizer.texts_to_sequences([text])
         if not seq or len(seq[0]) == 0:
-            return "Error", 0.0  # Text had no tokens
+            return "Error", 0.0  
         
         # Pad sequence (make sure maxlen matches what you used in training, e.g., 400)
         padded = pad_sequences(seq, maxlen=400, padding="post", truncating="post")
         
         # Predict
-        proba = model.predict(padded, verbose=0)[0]   # e.g. [0.78, 0.22]
-        pred_idx = np.argmax(proba)                   # 0 or 1
+        proba = model.predict(padded, verbose=0)[0]  
+        pred_idx = np.argmax(proba)                  
         
         # Map to labels
         label = "Fake" if pred_idx == 1 else "Real"
@@ -51,7 +51,7 @@ def predict_news(text):
         return "Error", 0.0
 
 
-# Custom CSS for styling (fixed missing semicolon)
+# Custom CSS for styling 
 st.markdown("""
 <style>
     .stApp {
@@ -183,3 +183,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
