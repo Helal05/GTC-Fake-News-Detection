@@ -110,37 +110,41 @@ Visualization of prediction confidence scores.
 
 📊 Results
 
-BERT Fine-Tuning
+🧠 Model
 
-Accuracy: XX%
+The final model used was:
 
-Precision: XX%
+LSTM (Long Short-Term Memory) with Word Embeddings
 
-Recall: XX%
-
-F1-Score: XX%
+Integrated with BERT embeddings for improved contextual understanding.
 
 
-LSTM
+🎯 Performance Metrics
 
-Accuracy: XX%
+Precision
 
-Precision: XX%
+Class 0 (Fake News): 0.98
 
-Recall: XX%
-
-F1-Score: XX%
+Class 1 (True News): 0.99
 
 
-Classical ML Models
+Recall
 
-Accuracy: XX%
+Class 0 (Fake News): 1.00
 
-Precision: XX%
+Class 1 (True News): 0.99
 
-Recall: XX%
 
-F1-Score: XX%
+F1-Score
+
+Class 0 (Fake News): 0.99
+
+Class 1 (True News): 0.99
+
+
+
+✅ These results indicate very strong performance with high precision, recall, and F1-scores across both classes.
+
 
 
 
